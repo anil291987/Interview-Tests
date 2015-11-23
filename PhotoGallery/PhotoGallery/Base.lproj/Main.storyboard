@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-tT-MlX" userLabel="PreviewView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="240"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lz3-7g-YoT" userLabel="ListView">
+                                <rect key="frame" x="0.0" y="240" width="600" height="360"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lz3-7g-YoT" firstAttribute="top" secondItem="Pni-tT-MlX" secondAttribute="bottom" id="3aQ-w3-Xpu"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lz3-7g-YoT" secondAttribute="bottom" id="Bxv-Aa-9rK"/>
+                            <constraint firstAttribute="trailing" secondItem="Pni-tT-MlX" secondAttribute="trailing" id="ED7-GR-KKp"/>
+                            <constraint firstItem="lz3-7g-YoT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="KZE-Sq-vtl"/>
+                            <constraint firstItem="Pni-tT-MlX" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="YDP-zJ-zyg"/>
+                            <constraint firstAttribute="trailing" secondItem="lz3-7g-YoT" secondAttribute="trailing" id="vJa-0W-Uq2"/>
+                            <constraint firstItem="Pni-tT-MlX" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="0.4" id="xQW-za-0jw"/>
+                            <constraint firstItem="Pni-tT-MlX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="zkl-nf-U4G"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
