@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC938D9C1C02F9C600A9C238 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = BC938D9B1C02F9C600A9C238 /* Categories.m */; settings = {ASSET_TAGS = (); }; };
+		BC938D9F1C02FB2500A9C238 /* CategoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = BC938D9E1C02FB2500A9C238 /* CategoryData.m */; settings = {ASSET_TAGS = (); }; };
+		BC938DA21C02FFB300A9C238 /* WebClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC938DA11C02FFB300A9C238 /* WebClient.m */; settings = {ASSET_TAGS = (); }; };
+		BCF2AB6F1C02E75B00C39024 /* CategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2AB6D1C02E75B00C39024 /* CategoryTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BCF2AB701C02E75B00C39024 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF2AB6E1C02E75B00C39024 /* CategoryTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		BCF2AB741C02E82100C39024 /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2AB731C02E82100C39024 /* CustomCollectionView.m */; settings = {ASSET_TAGS = (); }; };
+		BCF2AB761C02E84D00C39024 /* CustomCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF2AB751C02E84D00C39024 /* CustomCollectionView.xib */; settings = {ASSET_TAGS = (); }; };
+		BCF2AB7A1C02EC5E00C39024 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF2AB781C02EC5E00C39024 /* CategoryCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BCF2AB7B1C02EC5E00C39024 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF2AB791C02EC5E00C39024 /* CategoryCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		C002B6B21B8B0FF50062B550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C002B6B11B8B0FF50062B550 /* main.m */; };
 		C002B6B51B8B0FF50062B550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C002B6B41B8B0FF50062B550 /* AppDelegate.m */; };
 		C002B6B81B8B0FF50062B550 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C002B6B71B8B0FF50062B550 /* ViewController.m */; };
@@ -50,6 +59,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC938D9A1C02F9C600A9C238 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		BC938D9B1C02F9C600A9C238 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		BC938D9D1C02FB2500A9C238 /* CategoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryData.h; sourceTree = "<group>"; };
+		BC938D9E1C02FB2500A9C238 /* CategoryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryData.m; sourceTree = "<group>"; };
+		BC938DA01C02FFB300A9C238 /* WebClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebClient.h; sourceTree = "<group>"; };
+		BC938DA11C02FFB300A9C238 /* WebClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebClient.m; sourceTree = "<group>"; };
+		BCF2AB6C1C02E75B00C39024 /* CategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewCell.h; sourceTree = "<group>"; };
+		BCF2AB6D1C02E75B00C39024 /* CategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewCell.m; sourceTree = "<group>"; };
+		BCF2AB6E1C02E75B00C39024 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		BCF2AB721C02E82100C39024 /* CustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
+		BCF2AB731C02E82100C39024 /* CustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		BCF2AB751C02E84D00C39024 /* CustomCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionView.xib; sourceTree = "<group>"; };
+		BCF2AB771C02EC5E00C39024 /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		BCF2AB781C02EC5E00C39024 /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		BCF2AB791C02EC5E00C39024 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		C002B6AC1B8B0FF50062B550 /* PhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C002B6B01B8B0FF50062B550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C002B6B11B8B0FF50062B550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -131,6 +155,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC938DA31C02FFB800A9C238 /* WebClient */ = {
+			isa = PBXGroup;
+			children = (
+				BC938DA01C02FFB300A9C238 /* WebClient.h */,
+				BC938DA11C02FFB300A9C238 /* WebClient.m */,
+			);
+			name = WebClient;
+			sourceTree = "<group>";
+		};
+		BCF2AB711C02E76B00C39024 /* CustomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCF2AB6C1C02E75B00C39024 /* CategoryTableViewCell.h */,
+				BCF2AB6D1C02E75B00C39024 /* CategoryTableViewCell.m */,
+				BCF2AB6E1C02E75B00C39024 /* CategoryTableViewCell.xib */,
+				BCF2AB721C02E82100C39024 /* CustomCollectionView.h */,
+				BCF2AB731C02E82100C39024 /* CustomCollectionView.m */,
+				BCF2AB751C02E84D00C39024 /* CustomCollectionView.xib */,
+				BCF2AB771C02EC5E00C39024 /* CategoryCollectionViewCell.h */,
+				BCF2AB781C02EC5E00C39024 /* CategoryCollectionViewCell.m */,
+				BCF2AB791C02EC5E00C39024 /* CategoryCollectionViewCell.xib */,
+			);
+			name = CustomeCell;
+			sourceTree = "<group>";
+		};
+		BCF2AB7C1C02EFFB00C39024 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC938D9A1C02F9C600A9C238 /* Categories.h */,
+				BC938D9B1C02F9C600A9C238 /* Categories.m */,
+				BC938D9D1C02FB2500A9C238 /* CategoryData.h */,
+				BC938D9E1C02FB2500A9C238 /* CategoryData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		C002B6A31B8B0FF50062B550 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +214,9 @@
 		C002B6AE1B8B0FF50062B550 /* PhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
+				BC938DA31C02FFB800A9C238 /* WebClient */,
+				BCF2AB7C1C02EFFB00C39024 /* Model */,
+				BCF2AB711C02E76B00C39024 /* CustomeCell */,
 				C002B6B31B8B0FF50062B550 /* AppDelegate.h */,
 				C002B6B41B8B0FF50062B550 /* AppDelegate.m */,
 				C002B6B61B8B0FF50062B550 /* ViewController.h */,
@@ -351,6 +414,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C002B6BB1B8B0FF50062B550 /* Main.storyboard in Resources */,
+				BCF2AB7B1C02EC5E00C39024 /* CategoryCollectionViewCell.xib in Resources */,
+				BCF2AB761C02E84D00C39024 /* CustomCollectionView.xib in Resources */,
+				BCF2AB701C02E75B00C39024 /* CategoryTableViewCell.xib in Resources */,
 				C002B6C01B8B0FF50062B550 /* LaunchScreen.xib in Resources */,
 				C002B6BD1B8B0FF50062B550 /* Images.xcassets in Resources */,
 				C002B71F1B8B12B20062B550 /* Default.png in Resources */,
@@ -374,9 +440,13 @@
 				C002B7081B8B11700062B550 /* AFHTTPRequestOperation.m in Sources */,
 				C002B6B81B8B0FF50062B550 /* ViewController.m in Sources */,
 				C002B71C1B8B11700062B550 /* UIRefreshControl+AFNetworking.m in Sources */,
+				BC938D9F1C02FB2500A9C238 /* CategoryData.m in Sources */,
+				BC938D9C1C02F9C600A9C238 /* Categories.m in Sources */,
 				C002B7191B8B11700062B550 /* UIButton+AFNetworking.m in Sources */,
+				BCF2AB7A1C02EC5E00C39024 /* CategoryCollectionViewCell.m in Sources */,
 				C002B71B1B8B11700062B550 /* UIProgressView+AFNetworking.m in Sources */,
 				C002B7091B8B11700062B550 /* AFHTTPRequestOperationManager.m in Sources */,
+				BCF2AB741C02E82100C39024 /* CustomCollectionView.m in Sources */,
 				C002B70B1B8B11700062B550 /* AFNetworkReachabilityManager.m in Sources */,
 				C002B7181B8B11700062B550 /* UIAlertView+AFNetworking.m in Sources */,
 				C002B70F1B8B11700062B550 /* AFURLResponseSerialization.m in Sources */,
@@ -390,11 +460,13 @@
 				C002B70A1B8B11700062B550 /* AFHTTPSessionManager.m in Sources */,
 				C002B70E1B8B11700062B550 /* AFURLRequestSerialization.m in Sources */,
 				C002B7101B8B11700062B550 /* AFURLSessionManager.m in Sources */,
+				BCF2AB6F1C02E75B00C39024 /* CategoryTableViewCell.m in Sources */,
 				C002B6B51B8B0FF50062B550 /* AppDelegate.m in Sources */,
 				C002B7111B8B11700062B550 /* NSObject+SBJSON.m in Sources */,
 				C002B7121B8B11700062B550 /* NSString+SBJSON.m in Sources */,
 				C002B71D1B8B11700062B550 /* UIWebView+AFNetworking.m in Sources */,
 				C002B6B21B8B0FF50062B550 /* main.m in Sources */,
+				BC938DA21C02FFB300A9C238 /* WebClient.m in Sources */,
 				C002B7151B8B11700062B550 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

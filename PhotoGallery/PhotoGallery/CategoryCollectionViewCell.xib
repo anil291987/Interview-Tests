@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dhd-V9-lzQ">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <animations/>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstItem="Dhd-V9-lzQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ei0-9N-alk"/>
+                <constraint firstItem="Dhd-V9-lzQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="frW-XU-KhW"/>
+                <constraint firstAttribute="trailing" secondItem="Dhd-V9-lzQ" secondAttribute="trailing" id="hpV-Af-mew"/>
+                <constraint firstAttribute="bottom" secondItem="Dhd-V9-lzQ" secondAttribute="bottom" id="wBC-Nh-iO2"/>
+            </constraints>
+            <size key="customSize" width="50" height="116"/>
+            <connections>
+                <outlet property="imgCategory" destination="Dhd-V9-lzQ" id="UNr-aA-Poy"/>
+            </connections>
+            <point key="canvasLocation" x="274" y="349"/>
+        </collectionViewCell>
+    </objects>
+</document>
